@@ -1,4 +1,5 @@
 <?php
+echo"abc";
 
 set_include_path(get_include_path().PATH_SEPARATOR.'./'); //add current directory as to include path
 
@@ -49,6 +50,7 @@ $products->setProducts($productArray);
 
 
 $products->write();
+
 
 
 
